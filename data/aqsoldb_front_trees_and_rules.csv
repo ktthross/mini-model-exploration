@@ -1,0 +1,19 @@
+model,family,inputs,scheme,subset,information (bits),spread,numbers to write it down,readable
+GOSDT trees (λ_reg = 0.005),tree,"RDKit, one per group (152)",random cross-validation,all test compounds,0.5608725459091911,0.008789107832842645,19.76,True
+GOSDT trees (λ_reg = 0.005),tree,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,0.5633487243285993,0.05550050518179678,19.76,True
+GOSDT trees (λ_reg = 0.005),tree,"RDKit, one per group (152)",cluster cross-validation,all test compounds,0.5458011025971141,0.031543445291703366,19.76,True
+GOSDT trees (λ_reg = 0.005),tree,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,0.5464356752602183,0.04410790815441769,19.76,True
+GOSDT trees (λ_reg = 0.005),tree,"RDKit, one per group (152)",learning to split,all test compounds,-0.752797382219907,0.12878546364130655,19.76,True
+GOSDT trees (λ_reg = 0.005),tree,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.5436682510098045,0.11430966524789389,19.76,True
+CORELS rule lists (λ_reg = 0.005),rule list,"RDKit, one per group (152)",random cross-validation,all test compounds,0.5442786975711748,0.0117387660613641,22.48,True
+CORELS rule lists (λ_reg = 0.005),rule list,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,0.5446140602874818,0.04349206960134739,22.48,True
+CORELS rule lists (λ_reg = 0.005),rule list,"RDKit, one per group (152)",cluster cross-validation,all test compounds,0.5429323207115522,0.037738039198706344,22.48,True
+CORELS rule lists (λ_reg = 0.005),rule list,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,0.5393424725953478,0.04574338811886573,22.48,True
+CORELS rule lists (λ_reg = 0.005),rule list,"RDKit, one per group (152)",learning to split,all test compounds,-0.7324718457056895,0.06669870204064819,22.48,True
+CORELS rule lists (λ_reg = 0.005),rule list,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.5231672833847858,0.0844845875687681,22.48,True
+"random forest, 4 classes",random forest,"RDKit, one per group (152)",random cross-validation,all test compounds,1.0089046847393575,0.008880561683025427,3127612.0,False
+"random forest, 4 classes",random forest,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,0.9908754528939353,0.041090108536520516,3127612.0,False
+"random forest, 4 classes",random forest,"RDKit, one per group (152)",cluster cross-validation,all test compounds,0.9407715368023378,0.02464766238431066,3127612.0,False
+"random forest, 4 classes",random forest,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,0.9442119025592814,0.04685304360192977,3127612.0,False
+"random forest, 4 classes",random forest,"RDKit, one per group (152)",learning to split,all test compounds,-0.6087668850640691,0.11744570707183019,3127612.0,False
+"random forest, 4 classes",random forest,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.2730571164507468,0.0855699892075149,3127612.0,False

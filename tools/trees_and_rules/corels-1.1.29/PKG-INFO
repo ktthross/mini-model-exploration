@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: corels
+Version: 1.1.29
+Summary: Python binding of the CORELS algorithm
+Home-page: https://github.com/fingoldin/pycorels
+Author: Elaine Angelino, Nicholas Larus-Stone, Hongyu Yang, Cythnia Rudin, Vassilios Kaxiras, Margo Seltzer
+Author-email: vassilioskaxiras@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: Welcome to the Python binding of the Certifiably Optimal RulE ListS (CORELS) algorithm! 
+        
+        Documentation for this package is hosted at: https://corels.eecs.harvard.edu/corels/pycorels/
+        
+        For information on CORELS, please visit our website: https://corels.eecs.harvard.edu.
+        
+        For the code of this package, visit: https://github.com/fingoldin/pycorels
+        
+        CORELS uses Python, Numpy, GMP, and a C++ compiler (g++ is a great choice).
+        GMP (GNU Multiple Precision library) is not required, but it is *highly recommended*, as it improves performance. If it is not installed, CORELS will run slower.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7

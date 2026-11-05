@@ -1,0 +1,37 @@
+model,family,inputs,scheme,subset,information (bits),spread,numbers to write it down,readable
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),random cross-validation,all test compounds,0.725853330669196,0.013076489974928293,9434.0,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,0.7137363519136709,0.04143973933358738,9434.0,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),cluster cross-validation,all test compounds,0.7135362519554332,0.03188357590078931,9434.0,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,0.7080345641057846,0.04777224386384453,9434.0,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),learning to split,all test compounds,-0.8772597747258347,0.06430223252175171,9434.0,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-0.6411324296245109,0.16262702073317287,9434.0,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),random cross-validation,all test compounds,0.8081653387509077,0.008994960271062983,72850.4,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,0.7992900052838077,0.05131924765827754,72850.4,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),cluster cross-validation,all test compounds,0.7841912105346782,0.03019339731471863,72850.4,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,0.7915330394831861,0.04698837711167861,72850.4,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),learning to split,all test compounds,-1.0459206614789096,0.1183901915937875,72850.4,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-0.8104254776004156,0.20588723011238416,72850.4,True
+"random forest, ESOL (4)",random forest,ESOL (4),random cross-validation,all test compounds,0.7689112365181052,0.010894481283293225,4291987.6,False
+"random forest, ESOL (4)",random forest,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,0.7534504547669745,0.060950289024124346,4291987.6,False
+"random forest, ESOL (4)",random forest,ESOL (4),cluster cross-validation,all test compounds,0.7254466648328595,0.03186310372278994,4291987.6,False
+"random forest, ESOL (4)",random forest,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,0.7339929451599516,0.04503660565903583,4291987.6,False
+"random forest, ESOL (4)",random forest,ESOL (4),learning to split,all test compounds,-1.2581557928993552,0.09083403755297499,4291987.6,False
+"random forest, ESOL (4)",random forest,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-0.975310778156306,0.1037649929600264,4291987.6,False
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,all test compounds,0.9360900369648876,0.012473120992264166,241575.2,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,0.9173914897638908,0.05414131040505662,241575.2,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,all test compounds,0.8947852408337017,0.030233810379302586,241575.2,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,0.8836316300828105,0.04504912887892223,241575.2,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,all test compounds,-1.447571325526623,0.17089862109057638,241575.2,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.883506856404372,0.0969092182109383,241575.2,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,all test compounds,0.9499190399895244,0.013112181088204493,512960.8,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,0.9281779525880142,0.056801486840180264,512960.8,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,all test compounds,0.9066863409658209,0.031047445187093625,512960.8,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,0.892885927062267,0.05404062298104276,512960.8,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,all test compounds,-1.618854437876312,0.18284514280772543,512960.8,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-1.0253223717125128,0.09920661712877168,512960.8,True
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",random cross-validation,all test compounds,1.0089046847393575,0.00888056168302544,3129276.8,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,0.9908754528939353,0.0410901085365205,3129276.8,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",cluster cross-validation,all test compounds,0.9407715368023378,0.02464766238431066,3129276.8,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,0.9442119025592814,0.04685304360192977,3129276.8,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",learning to split,all test compounds,-0.6087668850640691,0.11744570707183008,3129276.8,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.2730571164507468,0.0855699892075149,3129276.8,False
