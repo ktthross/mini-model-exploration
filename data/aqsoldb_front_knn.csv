@@ -1,0 +1,31 @@
+model,family,inputs,scheme,subset,information (bits),spread,numbers to write it down,readable
+kNN on descriptors (k = 20),nearest neighbours,descriptors,random cross-validation,all test compounds,0.8583023394148809,0.019041769074377903,1209464.0,False
+kNN on descriptors (k = 20),nearest neighbours,descriptors,random cross-validation,test compounds with 2+ unflagged votes,0.8130045043954738,0.05605661107312955,1209464.0,False
+kNN on descriptors (k = 20),nearest neighbours,descriptors,cluster cross-validation,all test compounds,0.7813868729029759,0.02497822763551738,1209464.0,False
+kNN on descriptors (k = 20),nearest neighbours,descriptors,cluster cross-validation,test compounds with 2+ unflagged votes,0.7467509190274215,0.050253108932805796,1209464.0,False
+kNN on descriptors (k = 20),nearest neighbours,descriptors,learning to split,all test compounds,-0.9824877430981331,0.2032669065629552,1209464.0,False
+kNN on descriptors (k = 20),nearest neighbours,descriptors,learning to split,test compounds with 2+ unflagged votes,-0.6194860999584124,0.1545629506107838,1209464.0,False
+kNN on MAP4 (k = 10),nearest neighbours,MAP4,random cross-validation,all test compounds,0.6631558444099503,0.02290370718055235,8147968.0,False
+kNN on MAP4 (k = 10),nearest neighbours,MAP4,random cross-validation,test compounds with 2+ unflagged votes,0.6291321647080205,0.04492529452395073,8147968.0,False
+kNN on MAP4 (k = 10),nearest neighbours,MAP4,cluster cross-validation,all test compounds,0.5672368964919934,0.020783798039821787,8147968.0,False
+kNN on MAP4 (k = 10),nearest neighbours,MAP4,cluster cross-validation,test compounds with 2+ unflagged votes,0.554739427695234,0.05801189608267204,8147968.0,False
+kNN on MAP4 (k = 10),nearest neighbours,MAP4,learning to split,all test compounds,-0.9021991490834248,0.14107174332906278,8147968.0,False
+kNN on MAP4 (k = 10),nearest neighbours,MAP4,learning to split,test compounds with 2+ unflagged votes,-0.5869954616120914,0.11193332765049328,8147968.0,False
+"kNN on Morgan counts, radius 3 (k = 20)",nearest neighbours,"Morgan counts, radius 3",random cross-validation,all test compounds,0.7105053942070427,0.015439023614174263,274341.2955962196,False
+"kNN on Morgan counts, radius 3 (k = 20)",nearest neighbours,"Morgan counts, radius 3",random cross-validation,test compounds with 2+ unflagged votes,0.6707172531928953,0.04457187686278233,274341.2955962196,False
+"kNN on Morgan counts, radius 3 (k = 20)",nearest neighbours,"Morgan counts, radius 3",cluster cross-validation,all test compounds,0.6367563561309904,0.02785221224221161,274341.2955962196,False
+"kNN on Morgan counts, radius 3 (k = 20)",nearest neighbours,"Morgan counts, radius 3",cluster cross-validation,test compounds with 2+ unflagged votes,0.6241626025336654,0.055133114045196295,274341.2955962196,False
+"kNN on Morgan counts, radius 3 (k = 20)",nearest neighbours,"Morgan counts, radius 3",learning to split,all test compounds,-0.8095969988864123,0.12622335352842096,274341.2955962196,False
+"kNN on Morgan counts, radius 3 (k = 20)",nearest neighbours,"Morgan counts, radius 3",learning to split,test compounds with 2+ unflagged votes,-0.5301422970962,0.054883556583746065,274341.2955962196,False
+"kNN on Morgan counts, radius 9 (k = 20)",nearest neighbours,"Morgan counts, radius 9",random cross-validation,all test compounds,0.6963038604486147,0.015477080765889007,360884.2708626584,False
+"kNN on Morgan counts, radius 9 (k = 20)",nearest neighbours,"Morgan counts, radius 9",random cross-validation,test compounds with 2+ unflagged votes,0.656657394079173,0.0450836393035303,360884.2708626584,False
+"kNN on Morgan counts, radius 9 (k = 20)",nearest neighbours,"Morgan counts, radius 9",cluster cross-validation,all test compounds,0.6214470810535007,0.028881968279273685,360884.2708626584,False
+"kNN on Morgan counts, radius 9 (k = 20)",nearest neighbours,"Morgan counts, radius 9",cluster cross-validation,test compounds with 2+ unflagged votes,0.6092321296928661,0.054177108167533516,360884.2708626584,False
+"kNN on Morgan counts, radius 9 (k = 20)",nearest neighbours,"Morgan counts, radius 9",learning to split,all test compounds,-0.8191001022610254,0.11701879436411301,360884.2708626584,False
+"kNN on Morgan counts, radius 9 (k = 20)",nearest neighbours,"Morgan counts, radius 9",learning to split,test compounds with 2+ unflagged votes,-0.525573384497083,0.08071216614724866,360884.2708626584,False
+random forest on descriptors,random forest,"RDKit, one per group (152)",random cross-validation,all test compounds,1.0089046847393575,0.00888056168302544,,False
+random forest on descriptors,random forest,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,0.9908754528939353,0.0410901085365205,,False
+random forest on descriptors,random forest,"RDKit, one per group (152)",cluster cross-validation,all test compounds,0.9407715368023378,0.024647662384310664,,False
+random forest on descriptors,random forest,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,0.9442119025592814,0.04685304360192977,,False
+random forest on descriptors,random forest,"RDKit, one per group (152)",learning to split,all test compounds,-0.6087668850640691,0.11744570707183008,,False
+random forest on descriptors,random forest,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.2730571164507468,0.0855699892075149,,False

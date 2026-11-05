@@ -1,0 +1,49 @@
+model,family,inputs,scheme,subset,information (bits),spread,numbers to write it down,readable
+Delaney's equation (published),equation,ESOL (4),random cross-validation,all test compounds,0.2699185878452216,0.17476484961959993,14.0,True
+Delaney's equation (published),equation,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,-0.37347838614378126,0.8423417900386971,14.0,True
+Delaney's equation (published),equation,ESOL (4),cluster cross-validation,all test compounds,0.265163398560886,0.19293822547084807,14.0,True
+Delaney's equation (published),equation,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,-0.5384811788882862,1.1150724925322397,14.0,True
+Delaney's equation (published),equation,ESOL (4),learning to split,all test compounds,-0.6445327042027531,0.23156575358814221,14.0,True
+Delaney's equation (published),equation,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-1.9137388182639825,1.4619798482025577,14.0,True
+least squares refit of ESOL's form,equation,ESOL (4),random cross-validation,all test compounds,0.37270209127119125,0.13640117823331002,14.0,True
+least squares refit of ESOL's form,equation,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,0.34609130394873333,0.06826823690014239,14.0,True
+least squares refit of ESOL's form,equation,ESOL (4),cluster cross-validation,all test compounds,0.35766850047786636,0.14389898223996794,14.0,True
+least squares refit of ESOL's form,equation,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,0.3187123771617615,0.09650033207335602,14.0,True
+least squares refit of ESOL's form,equation,ESOL (4),learning to split,all test compounds,-0.26078610579471934,0.0776383543828138,14.0,True
+least squares refit of ESOL's form,equation,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-0.6487015565150254,0.3752602925029385,14.0,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),random cross-validation,all test compounds,0.8360413593515315,0.014257991868893089,2358.5,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,0.8186748085742013,0.04308752717603157,2358.5,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),cluster cross-validation,all test compounds,0.8265892809540526,0.03623387761282426,2358.5,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,0.813417186495449,0.06222041688248381,2358.5,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),learning to split,all test compounds,-0.3229467588699773,0.06405850811750462,2358.5,True
+"EBM, main effects, ESOL (4)",EBM,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-0.3222027088498292,0.14979596800128211,2358.5,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),random cross-validation,all test compounds,0.9152063380876256,0.01656593598458489,17596.8,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,0.9252041815299922,0.04398656808402846,17596.8,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),cluster cross-validation,all test compounds,0.8944585366421783,0.03730975687007659,17596.8,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,0.9203104727137864,0.06502321200078494,17596.8,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),learning to split,all test compounds,-0.3711486908515352,0.06860997733897814,17596.8,True
+"EBM, 5 pairs, ESOL (4)",EBM,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-0.3096100645218387,0.1698650221844875,17596.8,True
+"random forest, ESOL (4)",random forest,ESOL (4),random cross-validation,all test compounds,0.9345142850629455,0.013406720585455221,2497380.1,False
+"random forest, ESOL (4)",random forest,ESOL (4),random cross-validation,test compounds with 2+ unflagged votes,0.9149496581026026,0.06833035919665188,2497380.1,False
+"random forest, ESOL (4)",random forest,ESOL (4),cluster cross-validation,all test compounds,0.8908332897849259,0.042106238736509746,2497380.1,False
+"random forest, ESOL (4)",random forest,ESOL (4),cluster cross-validation,test compounds with 2+ unflagged votes,0.9192403526806526,0.059216034150496026,2497380.1,False
+"random forest, ESOL (4)",random forest,ESOL (4),learning to split,all test compounds,-0.4387861266043737,0.09594095393422346,2497380.1,False
+"random forest, ESOL (4)",random forest,ESOL (4),learning to split,test compounds with 2+ unflagged votes,-0.3839221926815994,0.1963281192974512,2497380.1,False
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,all test compounds,1.1906701616682946,0.02291390643746799,60393.8,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,1.127257993003532,0.06387202204413753,60393.8,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,all test compounds,1.100912471304202,0.05364514577719955,60393.8,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,1.0843288026565938,0.07301858642623252,60393.8,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,all test compounds,-0.2508099847935787,0.10506773570181985,60393.8,True
+"EBM, main effects, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.1385171255345748,0.17856343213703252,60393.8,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,all test compounds,1.2128407723719905,0.026702240654819753,131839.0,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,1.1578684044159269,0.05395806626729154,131839.0,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,all test compounds,1.134325579258506,0.03801550574915573,131839.0,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,1.090973696218629,0.07833618062915557,131839.0,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,all test compounds,-0.2668840386720793,0.09005393610077304,131839.0,True
+"EBM, 20 pairs, RDKit, one per group (152)",EBM,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.09951396618885022,0.15624023573477847,131839.0,True
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",random cross-validation,all test compounds,1.282514699448719,0.02436806500976441,2761506.7,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",random cross-validation,test compounds with 2+ unflagged votes,1.2286388804113269,0.05771272970499961,2761506.7,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",cluster cross-validation,all test compounds,1.1793411171577488,0.0340066038556283,2761506.7,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",cluster cross-validation,test compounds with 2+ unflagged votes,1.1634381140099772,0.056174008803820466,2761506.7,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",learning to split,all test compounds,-0.5346424857314493,0.11508806421298906,2761506.7,False
+"random forest, RDKit, one per group (152)",random forest,"RDKit, one per group (152)",learning to split,test compounds with 2+ unflagged votes,-0.3270369311831677,0.16551119823052277,2761506.7,False
